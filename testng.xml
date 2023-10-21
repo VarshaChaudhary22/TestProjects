@@ -3,8 +3,8 @@
 <suite name="Amazon TestCases">
   <test thread-count="5" name="TestNG-Amazon">
 	  <parameter name="URL" value="https://www.amazon.in/"/>
-	  <parameter name="Uname" value="varshachaudhary112021@gmail.com"/>
-	  <parameter name="Pwd" value="Varsha@222"/>
+	  <parameter name="Uname" value="ABCD@gmail.com"/>
+	  <parameter name="Pwd" value="password"/>
 	  <parameter name="SearchProduct" value="T Shirt"/>
 	  <parameter name="FullName" value="Test11"/>
 	  <parameter name="MobileNo" value="9999888812"/>
