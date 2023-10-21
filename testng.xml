@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon TestCases">
+  <test thread-count="5" name="TestNG-Amazon">
+	  <parameter name="URL" value="https://www.amazon.in/"/>
+	  <parameter name="Uname" value="varshachaudhary112021@gmail.com"/>
+	  <parameter name="Pwd" value="Varsha@222"/>
+	  <parameter name="SearchProduct" value="T Shirt"/>
+	  <parameter name="FullName" value="Test11"/>
+	  <parameter name="MobileNo" value="9999888812"/>
+	  <parameter name="AddressLine" value="A-24,Gurgaon"/>
+	  <parameter name="PinCode" value="122001"/>
+	  <parameter name="City" value="GURUGRAM"/>
+	  <parameter name="State" value="HARYANA"/>
+	  
+	  
+	  <classes>
+		  <class name="Com.Amazon.TestCaseAmazon"/>
+			  
+		  
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
